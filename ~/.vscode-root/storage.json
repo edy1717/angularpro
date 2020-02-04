@@ -1439,5 +1439,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e"
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/edwin/Documentos/AngularAvanzado/adminpro",
+            "backupPath": "/home/edwin/Documentos/AngularAvanzado/adminpro/~/.vscode-root/Backups/ff350665d62dda667d68f46e9e62f880",
+            "uiState": {
+                "mode": 0,
+                "x": 171,
+                "y": 29,
+                "width": 1024,
+                "height": 739
+            }
+        },
+        "openedWindows": []
+    }
 }
