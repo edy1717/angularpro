@@ -1,0 +1,8 @@
+[2020-02-07 10:32:39.650] [sharedprocess] [info] main {"machineId":"32ab8353a334dd36a88619c94c598e946cd4104749267057294b795d8f601b32","windowId":2}
+[2020-02-07 10:32:42.619] [sharedprocess] [info] Installing extension: file-icons.file-icons
+[2020-02-07 10:32:43.650] [sharedprocess] [info] Downloaded extension: file-icons.file-icons /tmp/d8a055f4-a395-425f-988f-89b9acae225f
+[2020-02-07 10:32:43.801] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.file-icons.file-icons-1.0.22: file-icons.file-icons
+[2020-02-07 10:32:43.802] [sharedprocess] [info] Renamed to /root/.vscode/extensions/file-icons.file-icons-1.0.22
+[2020-02-07 10:32:43.803] [sharedprocess] [info] Installation completed. file-icons.file-icons
+[2020-02-07 10:32:43.833] [sharedprocess] [info] Extensions installed successfully: file-icons.file-icons
+[2020-02-07 10:33:19.669] [sharedprocess] [info] Starting to clean up unused language packs.
