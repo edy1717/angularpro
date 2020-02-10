@@ -1,0 +1,74 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/edwin/Documentos/AngularAvanzado/adminpro
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/app/pages/graficas1/graficas1.component.html
+> git ls-files --stage -- /home/edwin/Documentos/AngularAvanzado/adminpro/src/app/pages/graficas1/graficas1.component.html
+> git cat-file -s a291889ca415c69e82328a0d58041473ff090513
+> git show :src/app/components/graficadona/graficadona.component.ts
+> git ls-files --stage -- /home/edwin/Documentos/AngularAvanzado/adminpro/src/app/components/graficadona/graficadona.component.ts
+> git cat-file -s 63a4b85cfa290816905e46f5394591d1612d5781
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/app/components/graficadona/graficadona.component.html
+> git ls-files --stage -- /home/edwin/Documentos/AngularAvanzado/adminpro/src/app/components/graficadona/graficadona.component.html
+> git cat-file -s 5bf665ae6e28fcda2fb20d8e84449b02bd7218af
+> git show :src/app/pages/graficas1/graficas1.component.html
+> git ls-files --stage -- /home/edwin/Documentos/AngularAvanzado/adminpro/src/app/pages/graficas1/graficas1.component.html
+> git cat-file -s a291889ca415c69e82328a0d58041473ff090513

@@ -9,9 +9,9 @@ import { ChartType } from 'chart.js';
 })
 export class GraficadonaComponent implements OnInit {
 
-  @Input ('labels') public doughnutChartLabels: Label[] = [];
-  @Input ('data') public doughnutChartData: MultiDataSet = [ [] ];
-  @Input ('chtype') public doughnutChartType: ChartType = 'doughnut';
+  @Input ('labels') doughnutChartLabels: Label[] = [];
+  @Input ('data')   doughnutChartData: MultiDataSet = [ [] ];
+  @Input ('chtype') doughnutChartType: ChartType = 'doughnut';
 
 
   constructor() { }
