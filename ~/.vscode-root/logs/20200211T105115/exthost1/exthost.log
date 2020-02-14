@@ -1,0 +1,96 @@
+[2020-02-11 10:51:20.924] [exthost] [info] extension host started
+[2020-02-11 10:51:20.980] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onLanguage:html"}
+[2020-02-11 10:51:20.981] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-02-11 10:51:21.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-02-11 10:51:21.025] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-02-11 10:51:21.089] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-02-11 10:51:21.089] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-02-11 10:51:21.099] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-02-11 10:51:21.099] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/git/dist/main
+[2020-02-11 10:51:21.254] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-02-11 10:51:21.254] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-02-11 10:51:21.263] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-02-11 10:51:21.263] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-02-11 10:51:21.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-02-11 10:51:21.266] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-02-11 10:51:21.272] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2020-02-11 10:51:21.272] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-3.20.0/dist/extension
+[2020-02-11 10:51:21.723] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-02-11 10:51:21.723] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/npm/dist/main
+[2020-02-11 10:51:21.873] [exthost] [info] eager extensions activated
+[2020-02-11 12:01:29.985] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-02-11 12:01:30.014] [exthost] [error] Error: Invalid arguments
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:199238)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:200508
+	at C (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:200758)
+[2020-02-11 16:02:15.536] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-02-11 16:02:15.537] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-02-11 16:02:15.576] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2020-02-11 16:02:15.576] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-02-11 16:02:34.694] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-02-11 16:02:34.694] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-02-11 16:02:34.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-02-11 16:02:34.746] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-02-11 16:02:46.732] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:02:46.732] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:02:54.389] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-02-11 16:03:48.632] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:03:48.659] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:06:32.936] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:06:32.946] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:19:18.680] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:19:18.714] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:51:58.714] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:51:58.754] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:53:01.840] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:53:01.849] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:53:01.850] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:53:01.850] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:55:50.360] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:55:50.361] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-11 16:59:21.654] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-11 16:59:21.656] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-12 11:25:02.968] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-12 11:25:02.986] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-12 11:27:15.173] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-12 11:27:15.175] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-12 11:27:20.196] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-12 11:27:20.197] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-12 11:27:44.335] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-12 11:27:44.335] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-12 11:58:26.620] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-12 11:58:26.653] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-12 12:03:31.144] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-12 12:03:31.144] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
