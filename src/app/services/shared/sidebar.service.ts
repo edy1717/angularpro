@@ -21,7 +21,6 @@ export class SidebarService {
   ];  
 
   constructor() { 
-  console.log(this.menu);
   
   }
 }

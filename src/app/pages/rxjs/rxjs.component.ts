@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { retry } from 'rxjs/operators';
+import { Component, OnInit , OnDestroy } from '@angular/core';
+import { Observable, Subscription, Subscriber } from 'rxjs';
+import { retry , map, filter} from 'rxjs/operators';
 
 
 @Component({
@@ -8,40 +8,16 @@ import { retry } from 'rxjs/operators';
   templateUrl: './rxjs.component.html',
   styles: []
 })
-export class RxjsComponent implements OnInit {
+export class RxjsComponent implements OnInit, OnDestroy {
+
+  subscription: Subscription;
 
   constructor() { 
 
-    let obs = new Observable( observer => {
-
-      let contador = 0;
-      
-      const intervalo = setInterval( () => {
-
-        contador ++;
-
-        observer.next( contador );
-
-        if( contador === 3 ) {
-          clearInterval (intervalo)
-          observer.complete();
-        }
-
-        if (contador === 2) {
-          // clearInterval (intervalo)
-          observer.error('help')
-        }
-
-      },1000);
-
-    });
-
-        obs.pipe(
-          retry()
-        )
+        this.subscription = this.regresarObservable()
         .subscribe( 
-          numero =>  console.log('sus', numero),
-          error =>  console.error('sus', error),
+          numero =>  console.log('subs', numero),
+          error =>  console.error('subs', error),
           () => console.log('El obs termino'),        
           
         );
@@ -49,6 +25,49 @@ export class RxjsComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  ngOnDestroy(){
+    console.log('La pagina cierra');
+    this.subscription.unsubscribe();
+  }
+
+  regresarObservable(): Observable<any>  {
+
+    return new Observable( (observer: Subscriber<any>) => {
+
+      let contador = 0;
+      
+      const intervalo = setInterval( () => {
+
+        contador ++;
+
+        const salida = {
+          valor: contador
+        };
+
+        observer.next( salida );
+
+        // if( contador === 3 ) {
+        //   clearInterval (intervalo)
+        //   observer.complete();
+        // }
+      },1000);
+
+    }).pipe( 
+      map( resp => resp.valor ),
+          filter( ( valor, index ) => {
+
+              if( (valor % 2) === 1 ){
+                //impar
+                return true;
+              }else {
+                //par}
+                return false;
+              }
+          })
+        )
+
   }
 
 }
