@@ -1,0 +1,83 @@
+[2020-02-17 10:36:06.035] [exthost] [info] extension host started
+[2020-02-17 10:36:06.097] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2020-02-17 10:36:06.098] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-02-17 10:36:06.119] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2020-02-17 10:36:06.119] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2020-02-17 10:36:06.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2020-02-17 10:36:06.153] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-02-17 10:36:06.223] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2020-02-17 10:36:06.223] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/npm/dist/main
+[2020-02-17 10:36:06.241] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-02-17 10:36:06.241] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-02-17 10:36:06.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-02-17 10:36:06.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-02-17 10:36:06.288] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-02-17 10:36:06.288] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/git/dist/main
+[2020-02-17 10:36:06.382] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-02-17 10:36:06.382] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-02-17 10:36:06.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-02-17 10:36:06.388] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-02-17 10:36:06.391] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-02-17 10:36:06.391] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-02-17 10:36:06.395] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
+[2020-02-17 10:36:06.395] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/esbenp.prettier-vscode-3.20.0/dist/extension
+[2020-02-17 10:36:06.948] [exthost] [info] eager extensions activated
+[2020-02-17 10:36:07.405] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-02-17 10:36:07.405] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-02-17 10:44:58.192] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-02-17 10:44:58.193] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-02-17 11:07:54.128] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-02-17 11:08:05.064] [exthost] [warning] INVALID text edit -> must have at least a label
+[2020-02-17 12:08:27.902] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-17 12:08:27.935] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/25/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-17 12:12:51.178] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-17 12:12:51.179] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/25/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-17 12:34:07.281] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-17 12:34:07.298] [exthost] [error] Error: DisposableStore is missing...
+	at F._convertCompletionItem (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:986)
+	at /var/lib/snapd/snap/code/25/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:589:764
+[2020-02-17 13:22:19.448] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-17 13:22:19.511] [exthost] [error] Error: <semantic> TypeScript Server Error (3.7.5)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+    at Object.cast (tsserver.js:1349:25)
+    at tryGetImportedPackageName (tsserver.js:124520:33)
+    at Object.getCodeActions (tsserver.js:124488:35)
+    at tsserver.js:120431:121
+    at Object.flatMap (tsserver.js:468:25)
+    at Object.getFixes (tsserver.js:120431:23)
+    at tsserver.js:131114:35
+    at Object.flatMap (tsserver.js:468:25)
+    at Proxy.getCodeFixesAtPosition (tsserver.js:131112:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:140767:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:139552:61)
+    at tsserver.js:140960:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:140951:28)
+    at IOSession.Session.executeCommand (tsserver.js:140960:33)
+    at IOSession.Session.onMessage (tsserver.js:140983:35)
+    at Interface.<anonymous> (tsserver.js:142298:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49149)
+	at h.dispatchResponse (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:213785)
+	at h.dispatchMessage (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212703)
+	at /var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212179
+	at l.fire (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at t.Reader.onLengthData (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:219256)
+	at Socket.<anonymous> (/var/lib/snapd/snap/code/25/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:218904)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)

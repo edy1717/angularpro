@@ -44,8 +44,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -405,8 +404,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -1484,8 +1482,8 @@
             "backupPath": "/home/edwin/Documentos/AngularAvanzado/adminpro/~/.vscode-root/Backups/ff350665d62dda667d68f46e9e62f880",
             "uiState": {
                 "mode": 0,
-                "x": 0,
-                "y": 0,
+                "x": 683,
+                "y": 29,
                 "width": 683,
                 "height": 739
             }

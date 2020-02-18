@@ -27,3 +27,31 @@
 [2020-02-14 11:49:58.764] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
 [2020-02-14 11:54:08.448] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
 [2020-02-14 11:54:08.448] [exthost] [info] ExtensionService#loadCommonJSModule file:///var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-02-14 13:20:12.603] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-14 13:20:12.673] [exthost] [error] Error: Invalid arguments
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97957)
+[2020-02-14 13:20:13.407] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-14 13:20:13.408] [exthost] [error] Error: Invalid arguments
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97957)
+[2020-02-14 13:20:13.409] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-14 13:20:13.410] [exthost] [error] Error: Invalid arguments
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97957)
+[2020-02-14 13:20:21.474] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2020-02-14 13:20:21.475] [exthost] [error] Error: Invalid arguments
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:372:70)
+	at new g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at g (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:96437)
+	at /var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97707
+	at C (/var/lib/snapd/snap/code/24/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain.js:9:97957)

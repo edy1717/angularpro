@@ -1,6 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
+    "files.autoSaveDelay": 3000,
     "workbench.iconTheme": "vscode-simpler-icons",
     "window.zoomLevel": 0,
     "typescript.updateImportsOnFileMove.enabled": "always"
